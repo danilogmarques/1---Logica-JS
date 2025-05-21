@@ -4,17 +4,14 @@
 
 const prompt = require('prompt-sync')()
 
-let quantidadeMaxima  = prompt('digite a quantidade máxima do estoque ')
-quantidadeMaxima = Number(quantidadeMaxima)
+let quantidadeMaxima  = Number(prompt('digite a quantidade máxima do estoque '))
 
-let quantidadeMinima = prompt('digite a quantidade minima do estoque ')
-quantidadeMinima = Number(quantidadeMinima)
+let quantidadeMinima = Number(prompt('digite a quantidade minima do estoque '))
 
-let quantidadeAtual = prompt('digite a quantido atual do estoque ')
-quantidadeAtual = Number(quantidadeAtual)
+let quantidadeAtual = Number(prompt('digite a quantido atual do estoque '))
+
 
 media = ( quantidadeMaxima + quantidadeMinima ) / 2 
-media = Number(media)
 
 if( quantidadeAtual >= quantidadeMaxima  ){
     console.log(`O estoque é de ${media} e está bom, não efetuar a comprar`)
