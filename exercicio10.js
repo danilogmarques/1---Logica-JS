@@ -2,11 +2,9 @@
 
 const prompt = require ('prompt-sync')()
 
-let primeiroValor = prompt ('Digite um número ')
-    primeiroValor = Number (primeiroValor);
-
-let segundoValor = prompt ('Digite um número ')
-    segundoValor = Number (segundoValor);
+let primeiroValor = Number(prompt ('Digite um número '))
+    
+let segundoValor = Number(prompt ('Digite um número '))
 
 if ( primeiroValor > segundoValor ){
     console.log( 'O primeiro valor é o maior ')
