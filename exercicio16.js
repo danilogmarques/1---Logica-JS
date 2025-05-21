@@ -4,14 +4,14 @@
 
 const prompt = require('prompt-sync')()
 
-let valorA = prompt('digite um valor ')
-Number(valorA)
+let valorA = Number(prompt('digite um valor ' ))
 
-let valorB = prompt('digite um valor ')
-Number(valorB)
 
-let valorC = prompt('digite um valor ')
-Number(valorC)
+let valorB = Number(prompt('digite um valor ' ))
+
+
+let valorC = Number(prompt('digite um valor ' ))
+
 
 // const somaA = valorB + valorC
 
