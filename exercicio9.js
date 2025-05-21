@@ -2,8 +2,7 @@
 
 const prompt = require ('prompt-sync')();
 
-let valor = prompt ( 'Digite um valor ' );
-    valor = Number (valor)
+let valor = Number(prompt ( 'Digite um valor ' ));
 
 if( valor >= 0 ){
     console.log(' O valor digitado é positivo ')
