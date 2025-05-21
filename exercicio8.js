@@ -3,7 +3,7 @@
 
 const prompt = require ('prompt-sync')()
 
-let valor = prompt("Digite um número ")
+let valor = Number(prompt("Digite um número "))
 
 if( valor >= 10 ){
     console.log(` O valor digitado é maior que 10`)
