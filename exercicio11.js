@@ -3,11 +3,11 @@
 
 const prompt = require ('prompt-sync')();
 
-let primeiraNota = prompt ('Digite a sua primeira nota ')
+let primeiraNota = Number(prompt ('Digite a sua primeira nota '))
 
-let segundaNota = prompt ('Digite a sua segunda nota ');
+let segundaNota = Number(prompt ('Digite a sua segunda nota '));
 
-const media = ( Number (primeiraNota) + Number (segundaNota) ) / 2
+const media = ( primeiraNota + segundaNota ) / 2
 
 console.log(media)
 
