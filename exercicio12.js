@@ -4,18 +4,15 @@
 
 const prompt = require ('prompt-sync') ()
 
-numeroConta = prompt ( 'Digite o número da sua conta ')
-saldo = prompt (' digite seu saldo atual ')
-saldo = Number (saldo)
+numeroConta = Number(prompt ( 'Digite o número da sua conta '))
 
-debito = prompt ( ' digite o valor das suas despesas do mês ')
-debito = Number(debito)
+saldo = Number(prompt (' digite seu saldo atual '))
 
-credito = prompt ( 'digite o valor recebido durante o mês ')
-credito = Number(credito)
+debito = Number(prompt ( ' digite o valor das suas despesas do mês '))
+
+credito = Number(prompt ( 'digite o valor recebido durante o mês '))
 
 saldoAtual = ( saldo + credito ) - debito
-saldoAtual = Number(saldoAtual)
 
 if (saldoAtual >= 0){
     console.log(`O seu saldo é de ${saldoAtual} e é positivo`)
