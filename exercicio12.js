@@ -14,9 +14,14 @@ debito = Number(debito)
 credito = prompt ( 'digite o valor recebido durante o mês ')
 credito = Number(credito)
 
-saldoAtual = ( saldo + debito ) - credito 
+saldoAtual = ( saldo + credito ) - debito
+saldoAtual = Number(saldoAtual)
 
-console.log(`esse é o seu saldo atual ${saldoAtual}`)
+if (saldoAtual >= 0){
+    console.log(`O seu saldo é de ${saldoAtual} e é positivo`)
+} else {
+    console.log(`Seu saldo é de ${saldoAtual} e seu nome vai para o serasa, saldo negativo`)
+}
 
 
 
