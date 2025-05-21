@@ -2,14 +2,12 @@
 
 const prompt = require('prompt-sync')()
 
-let primeiroValor = prompt('digite um valor ')
-Number(primeiroValor)
+let primeiroValor = Number(prompt('digite um valor '))
 
-let segundoValor = prompt('digite um valor ')
-Number(segundoValor)
+let segundoValor = Number(prompt('digite um valor '))
 
-let terceiroValor = prompt('digite um valor ')
-Number(terceiroValor)
+let terceiroValor = Number(prompt('digite um valor '))
+
 
 if ( primeiroValor >= segundoValor )
     if( segundoValor >= terceiroValor){
