@@ -9,12 +9,11 @@ for ( contador = 1; contador <=10; contador ++ ){
 
     valor = Number(prompt("Digite um número "))
 
-    soma = valor + valor
+    soma = soma + valor
     
-    console.log(soma)
 };
 
- const media = valor / 10
+ const media = soma / 10
 
- console.log(media)
+ console.log(`A média dos valores é ${media}`)
 
