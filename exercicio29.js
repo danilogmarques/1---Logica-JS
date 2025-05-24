@@ -20,4 +20,4 @@ for (contador = 1; contador <= qtdDeAlunos; contador ++) {
 
     const media = soma / qtdDeAlunos
 
-    console.log(`A média das notas de todos os alunos foi de ${media}`)
+    console.log(`São A média das notas de todos os alunos foi de ${media}`)
